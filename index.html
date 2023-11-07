@@ -1,63 +1,7 @@
-<style>
-  .custom-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-
-  .pointer {
-    animation: translateLeftRight 4000ms infinite ease-in-out;
-  }
-
-  @keyframes translateLeftRight {
-    0% {
-      transform: translateX(0);
-    }
-
-    50% {
-      transform: translateX(-50px);
-    }
-
-    100% {
-      transform: translateX(0);
-    }
-  }
-
-  .custom-download-link {
-    background-color: #ff8a00;
-    color: white;
-    padding: 13px 20px;
-    border: none;
-    font-weight: 600;
-    border-radius: 30px;
-    font-family: inherit;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.5s ease-in-out;
-    text-decoration: none;
-    font-family: inherit;
-    animation: changeBg 4000ms infinite ease-in-out;
-  }
-
-  .custom-download-link:hover,
-  .custom-download-link:focus {
-    background-color: #d27204;
-  }
-
-  @keyframes changeBg {
-    0% {
-      background-color: #d27204;
-    }
-
-    50% {
-      background-color: #ff8a00;
-    }
-
-    100% {
-      background-color: #d27204;
-    }
-  }
-</style>
+<link
+  rel="stylesheet"
+  href="https://codefinity-content-media-v2.s3.eu-west-1.amazonaws.com/courses/c1087363-9025-4c37-8d5e-983a32a007e9/buttons-section/course-summary.css"
+/>
 
 <div class="custom-container">
   <img
@@ -67,7 +11,10 @@
     alt="Pointer finger"
     width="64px"
   />
-  <!-- Change the value for the href attribute -->
+  <!-- 
+    CHANGE THE VALUE FOR THE href ATTRIBUTE
+    FILE CAN BE HELD ON AMAZON OR GOOGLE DRIVE
+  -->
   <a
     class="custom-download-link"
     href="https://drive.google.com/file/d/1xhYpccJWvHMkHthKznWcKf5ATr54JgDR/view?usp=sharing"
